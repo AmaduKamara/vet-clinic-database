@@ -1,6 +1,4 @@
 /* Database schema to keep the structure of entire database. */
-CREATE DATABASE vet_clinic;
-
 /* Create a table animals in vet_clinic database */
 CREATE TABLE animals(
    id INT GENERATED ALWAYS AS IDENTITY,
