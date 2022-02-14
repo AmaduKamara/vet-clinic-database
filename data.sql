@@ -1,5 +1,4 @@
-/* Populate database with sample data. */
+/* Create a database vet_clinic  */
 
-INSERT INTO animals (name) VALUES ('Luna');
-INSERT INTO animals (name) VALUES ('Daisy');
-INSERT INTO animals (name) VALUES ('Charlie');
+
+/* Populate database with sample data. */
