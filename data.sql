@@ -1,6 +1,3 @@
-/* Create a database vet_clinic  */
-CREATE DATABASE vet_clinic;
-
 /* Populate database with sample data. */
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Agumon', '02-03-2020', 0, '1', 10.23);
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Gabumon', '11-15-2018', 2, '1', 8);
