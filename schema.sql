@@ -21,3 +21,9 @@ CREATE TABLE owners(
    full_name VARCHAR (250) NOT NULL,
    age INT NOT NULL
 );
+
+/* Create a table named owners */
+CREATE TABLE species(
+   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   name VARCHAR (250) NOT NULL
+);
