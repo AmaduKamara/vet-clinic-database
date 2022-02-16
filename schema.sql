@@ -22,8 +22,11 @@ CREATE TABLE owners(
    age INT NOT NULL
 );
 
-/* Create a table named owners */
+/* Create a table named species */
 CREATE TABLE species(
    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
    name VARCHAR (250) NOT NULL
 );
+
+/* Modify animals table */
+ALTER TABLE animals ADD PRIMARY KEY (id);
