@@ -30,3 +30,6 @@ CREATE TABLE species(
 
 /* Modify animals table */
 ALTER TABLE animals ADD PRIMARY KEY (id);
+
+/* Remove column species */
+ALTER TABLE animals DROP COLUMN species;
