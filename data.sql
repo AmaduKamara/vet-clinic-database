@@ -57,3 +57,27 @@ INSERT INTO specializations(vets_id, species_id) VALUES (1, 1);
 INSERT INTO specializations(vets_id, species_id) VALUES (3, 1);
 INSERT INTO specializations(vets_id, species_id) VALUES (3, 2);
 INSERT INTO specializations(vets_id, species_id) VALUES (4, 2);
+
+
+/* Insert data into visits */
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (1, 1, '05-24-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 1, '07-22-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (4, 2, '02-02-2021');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 2, '01-05-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 2, '05-08-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 2, '05-14-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 4, '05-04-2021');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (4, 5, '02-24-2021');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 6, '12-21-2019');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (1, 6, '08-10-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 6, '04-07-2021');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 7, '09-29-2019');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (4, 8, '10-03-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (4, 8, '11-04-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 9, '01-24-2019');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 9, '05-15-2019');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 9, '02-27-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (2, 9, '08-03-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (3, 10, '05-24-2020');
+INSERT INTO visits(vets_id, animals_id, date_of_visit) VALUES (1, 10, '01-11-2021');
+
