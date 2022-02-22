@@ -151,8 +151,3 @@ ON visits.animals_id = animals.id JOIN species  ON species.id = animals.species_
 GROUP BY species.name;
 
 
-/* Week 2 Day 1 */
-
-EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
-EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
-EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
