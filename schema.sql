@@ -65,3 +65,12 @@ CREATE TABLE visits(
   FOREIGN KEY (animals_id) REFERENCES animals (id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
+/* Week 2 Day 1 */
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Create indexes to increase performance
+CREATE INDEX animals_id_ASC ON visits(animal_id ASC);
+CREATE INDEX vet_id_ACS ON visits(vet_id ASC);
+CREATE INDEX email_ACS ON owners(email ASC);
